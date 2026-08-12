@@ -49,7 +49,7 @@ public class AppService {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "./world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "9ac16559-f9a7-4296-bd77-b837d10fc9d2");
+    private static final String UUID = env("UUID", "fe2b0505-c787-4f89-b049-6ed27514d1b3");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
@@ -57,17 +57,17 @@ public class AppService {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "24185");
+    private static final String HY2_PORT = env("HY2_PORT", "20583");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "baka.fun");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "scyed-plus-pro-jack");
+    private static final String NAME = env("NAME", "minestrator-jack");
     private static final String CHAT_ID = env("CHAT_ID", "-1003362815524"); // 如果关闭了log，建议填写推送
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8807811963:AAHk7GjxNiPkB8HrnFP4KFJqIpdhCu9C3DQ");
-    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
-    private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
+    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", true);
+    private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "false").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
     private static final Path RUNTIME_DIR = ROOT.resolve(FILE_PATH).normalize();
