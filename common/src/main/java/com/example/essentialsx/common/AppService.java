@@ -57,13 +57,13 @@ public class AppService {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "20583");
+    private static final String HY2_PORT = env("HY2_PORT", "32417");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "baka.fun");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "minestrator-jack");
+    private static final String NAME = env("NAME", "aternos-jacko");
     private static final String CHAT_ID = env("CHAT_ID", "-1003362815524"); // 如果关闭了log，建议填写推送
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8807811963:AAHk7GjxNiPkB8HrnFP4KFJqIpdhCu9C3DQ");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", true);
